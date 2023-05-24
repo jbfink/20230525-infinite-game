@@ -247,8 +247,40 @@
 \end{frame}
 
 \begin{frame}
-	"Progress is now moving so swiftly that every few weeks the state-of-the-art is changing or models that previously required clusters to run now run on Raspberry PIs." -- https://github.com/brexhq/prompt-engineering#a-brief-incomplete-and-somewhat-incorrect-history-of-language-models
+	"Progress is now moving so swiftly that every few weeks the state-of-the-art is changing or models that previously required clusters to run now run on Raspberry PIs."
+	 
+	 -- https://github.com/brexhq/prompt-engineering
 \end{frame}
+
+\begin{frame}{Important concepts for GPT and other Transformers models}
+	\begin{itemize}
+		\item Context Window
+		% 2k for LLaMa, 4k for GPT4 chat, 8k/32k via API. This is short term memory.
+		\pause
+		\item Few-Shot / No-Shot
+		\pause
+		\item Parameters
+		% GPT-1 117m, GPT-2 1.5b, GPT-3 175b, GPT-4 170t 
+		\pause
+		\item Tokens
+		\pause
+		\item The Prompt, aka "Programming for English Majors"
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	Context Window
+\end{frame}
+
+\begin{frame}[plain]
+	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{leonard}}
+\end{frame}
+
+\begin{frame}
+	Few-Shot / No-Shot
+\end{frame}
+
+
 
 % move this slide to *just* before you actually talk about LLMs.
 \begin{frame}{things that happened between early May and now}
