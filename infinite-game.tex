@@ -186,7 +186,7 @@
 
 \begin{frame}{so, to recap:}
 	\begin{itemize}
-		\item 1000BC - Yijing
+		\item 1000BC - Yijing / I-Ching
 		\pause
 		\item 1000BC-2017AD - some inconsequential stuff happens
 	\end{itemize}
@@ -276,11 +276,53 @@
 	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{leonard}}
 \end{frame}
 
-\begin{frame}
-	Few-Shot / No-Shot
+\begin{frame}{Few-Shot / No-Shot}
+	\begin{itemize}
+		\item \textit{Few-Shot} -- a few examples to "teach" an LLM, such as:
+		\pause
+		\item "I hate it when my phone battery dies." - negative
+		\pause
+		\item "My day has been great!" - positive
+		\pause
+		\item "Here is an article." - neutral
+		\pause
+		\item "This presentation is going fantastic!!!!" - positive
+		\pause
+		\item And \textit{No-Shot} is exactly what you think it is.
+	\end{itemize}
 \end{frame}
 
 
+\begin{frame}{Parameters}
+	\begin{itemize}
+		\item Roughly corresponds to how "Complex" or "Smart" a model is.
+		\pause
+		\item (...very roughly)
+		\pause 
+		\item But definitely correlates to resources needed to run the model.
+		\pause
+		\item Which is why, say, GPT-4 requires this....
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[plain]
+	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{azure-data-centre}}
+\end{frame}
+
+\begin{frame}
+	And you can run a 7B model on this....
+\end{frame}
+
+\begin{frame}[plain]
+	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{pfeebe}}
+\end{frame}
+
+
+\begin{frame}
+	\textit{Tokens} are *roughly* words, or portions of words.
+\end{frame}
+
+% demo https://platform.openai.com/tokenizer
 
 % move this slide to *just* before you actually talk about LLMs.
 \begin{frame}{things that happened between early May and now}
