@@ -1,0 +1,13 @@
+Links to things I have mentioned in the talk:
+
+Attention Is All You Need paper: https://arxiv.org/abs/1706.03762
+
+Improving Language Understanding paper: https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf
+
+Language Models are Few-Shot Learners: https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf
+
+New Yorker article on Danny Dunn and the Homework Machine: https://www.newyorker.com/books/second-read/what-a-sixty-five-year-old-book-teaches-us-about-ai
+
+Hugging Face chat: https://huggingface.co/chat/
+
+llama.cpp: https://github.com/ggerganov/llama.cppx
