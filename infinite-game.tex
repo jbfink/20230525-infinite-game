@@ -219,6 +219,9 @@
 \end{frame}
 
 
+\begin{frame}
+	Why I say "Large Language Model" and not "AI"
+\end{frame}
 
 \begin{frame}
 	So, about 2017...
@@ -252,9 +255,9 @@
 	 -- https://github.com/brexhq/prompt-engineering
 \end{frame}
 
-\begin{frame}{Important concepts for GPT and other Transformers models}
+\begin{frame}{Important concepts for GPT and other models}
 	\begin{itemize}
-		\item Context Window
+		\item Context Window and Tokens
 		% 2k for LLaMa, 4k for GPT4 chat, 8k/32k via API. This is short term memory.
 		\pause
 		\item Few-Shot / No-Shot
@@ -262,15 +265,21 @@
 		\item Parameters
 		% GPT-1 117m, GPT-2 1.5b, GPT-3 175b, GPT-4 170t 
 		\pause
-		\item Tokens
-		\pause
 		\item The Prompt, aka "Programming for English Majors"
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
-	Context Window
+	\begin{itemize}
+		\item Context Window is the "memory" of an LLM
+		\pause
+		\item And Tokens -- words, roughly -- fill up that "memory"
+		\pause
+		\item And the \textit{response} also takes tokens.
+	\end{itemize}
 \end{frame}
+
+% demo https://platform.openai.com/tokenizer
 
 \begin{frame}[plain]
 	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{leonard}}
@@ -299,7 +308,7 @@
 		\pause
 		\item (...very roughly)
 		\pause 
-		\item But definitely correlates to resources needed to run the model.
+		\item But \textit{definitely} correlates to resources needed to run the model.
 		\pause
 		\item Which is why, say, GPT-4 requires this....
 	\end{itemize}
@@ -318,11 +327,11 @@
 \end{frame}
 
 
-\begin{frame}
-	\textit{Tokens} are *roughly* words, or portions of words.
-\end{frame}
 
-% demo https://platform.openai.com/tokenizer
+% demo soup-to-nuts build of llama.cpp on pfeebe:
+% git clone https://github.com/ggerganov/llama.cpp
+% make clean; make LLAMA_OPENBLAS=1
+% copy model file 
 
 % move this slide to *just* before you actually talk about LLMs.
 \begin{frame}{things that happened between early May and now}
@@ -337,6 +346,10 @@
 		\pause
 		\item other
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{THE FUTURE OF LARGE LANGUAGE MODELS}
+	
 \end{frame}
 
 \end{document}
