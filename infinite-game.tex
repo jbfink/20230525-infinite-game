@@ -321,13 +321,15 @@
 	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{llamas}}
 \end{frame}
 
-% February 24th, Facebook introduces LLaMa in a blog post but doesn't freely release how it's made, but it *does* let people have access to it via an application. Of course it was *instantly* leaked, and started an absolute torrent of derivatives. Nearly every locally-runnable model today is based somewhat on the LLaMa original code, which is problematic because 
+% February 24th, Facebook introduces LLaMa in a blog post but doesn't freely release how it's made, but it *does* let people have access to it via an application. Of course it was *instantly* leaked, and started an absolute torrent of derivatives. Nearly every locally-runnable model today is based somewhat on the LLaMa original code, which is problematic because it precludes commercial use. There are attempts -- going on RIGHT NOW -- to recreate LLaMa functionality with unencumbered data, and there are already models out there without encumbrances, so this is less of a factor going forward.
 
 \begin{frame}
 	"Progress is now moving so swiftly that every few weeks the state-of-the-art is changing or models that previously required clusters to run now run on Raspberry PIs."
 	 
 	 -- https://github.com/brexhq/prompt-engineering
 \end{frame}
+
+% Usually LLMs need to run on very beefy graphics cards with lots and lots of VRAM, especially during the training phase. But there are methods to run these models on way more modest hardware and only on the CPU and get decent performance -- of course, not nearly as fast as using GPUs but *very usable* and, more importantly, cheap, cheap, cheap. The raspberry pi in question costs around $100CAD, and *just the graphics card* for a capable GPU-based setup will run about $6000.
 
 \begin{frame}{Important concepts for GPT and other models}
 	\begin{itemize}
