@@ -1,12 +1,18 @@
-Links to things I have mentioned in the talk:
+Links to things I have mentioned in the talk and others:
 
-Attention Is All You Need paper: https://arxiv.org/abs/1706.03762
+Attention Is All You Need: https://arxiv.org/abs/1706.03762
 
-Improving Language Understanding paper: https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf
+Improving Language Understanding: https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf
 
 Language Models are Few-Shot Learners: https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf
 
 New Yorker article on Danny Dunn and the Homework Machine: https://www.newyorker.com/books/second-read/what-a-sixty-five-year-old-book-teaches-us-about-ai
+
+ELIZA paper: http://www.universelle-automation.de/1966_Boston.pdf
+
+Large Language Models and the Reverse Turing Test: https://arxiv.org/abs/2207.14382
+
+BrexHQ prompt engineering doc: https://github.com/brexhq/prompt-engineering
 
 Hugging Face chat: https://huggingface.co/chat/
 
