@@ -21,3 +21,5 @@ BrexHQ prompt engineering doc: https://github.com/brexhq/prompt-engineering
 Hugging Face chat: https://huggingface.co/chat/
 
 llama.cpp: https://github.com/ggerganov/llama.cpp
+
+web ui that uses llama.cpp:  https://github.com/oobabooga/text-generation-webui
