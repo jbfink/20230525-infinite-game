@@ -12,6 +12,10 @@ ELIZA paper: http://www.universelle-automation.de/1966_Boston.pdf
 
 Large Language Models and the Reverse Turing Test: https://arxiv.org/abs/2207.14382
 
+Racter on archive.org: https://archive.org/details/msdos_Racter_1984
+
+Policeman's Beard book: https://archive.org/details/policemansbeardi0000unse
+
 BrexHQ prompt engineering doc: https://github.com/brexhq/prompt-engineering
 
 Hugging Face chat: https://huggingface.co/chat/
