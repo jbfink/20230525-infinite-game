@@ -10,6 +10,8 @@ New Yorker article on Danny Dunn and the Homework Machine: https://www.newyorker
 
 ELIZA paper: http://www.universelle-automation.de/1966_Boston.pdf
 
+Early Verge article on LLaMa leak: https://www.theverge.com/2023/3/8/23629362/meta-ai-language-model-llama-leak-online-misuse
+
 Large Language Models and the Reverse Turing Test: https://arxiv.org/abs/2207.14382
 
 Racter on archive.org: https://archive.org/details/msdos_Racter_1984
